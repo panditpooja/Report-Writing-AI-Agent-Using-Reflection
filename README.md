@@ -105,9 +105,11 @@ Currently configured with:
 ```
 .
 ├── reflection_report_writing_system.ipynb  # Main notebook
-├── README.md                                # This file (user documentation)
-├── requirements.txt                         # Python dependencies
-└── final_report.txt                         # Output file (generated after running)
+├── README.md                               # This file (user documentation)
+├── requirements.txt                        # Python dependencies
+├── final_report.txt                        # Output file (generated after running)
+├── .env.example                            # Example environment variables
+└── .gitignore                              # Git ignore rules
 ```
 
 **Note**: You'll need to create a `.env` file with your API keys (see Installation section).
